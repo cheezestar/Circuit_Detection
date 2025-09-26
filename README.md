@@ -14,7 +14,7 @@ The following example illustrates the end-to-end process, from a raw hand-drawn 
   <img src="Assets/Demo_circuit.jpg" alt="DEMO" width="300" height="300">
 </p>  
 
-**Workflow Breakdown:**
+### Workflow Breakdown:
 
 **1. Component Detection**
   - I trained a custom object detection model using
