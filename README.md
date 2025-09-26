@@ -16,3 +16,7 @@ Currently over several python scrpits I can decode an image of a hand drawn imag
 </p>  
 
 2. Cleaning of the image to 'remove' the circuits and using CV2 library using the coordinates generated from the model
+3. 
+<p align="center">
+  <img src="Assets/cleaned_circuit.png" alt="DEMO_clean" width="300" height="300">
+</p>  
