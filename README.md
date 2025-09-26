@@ -1,15 +1,22 @@
 # Circuit Detection Application
 
-Currently over several python scrpits I can decode an image of a hand drawn image and return a Spice NETLIST. This was developed solo by myself during the summer. I plan to add an interface that has drag and drop functionality within some sort of frontend application.
+Over the summer, I developed a system that can take a hand-drawn circuit diagram as input and automatically generate a valid SPICE netlist. The current implementation spans several Python scripts, and I am now working toward building a front-end interface with drag-and-drop functionality to make it easier to use.
 
-**This is an example image to demonstrate the workflow.**
+This work was carried out entirely as a solo project, covering dataset creation, model training, and integration of computer vision and EDA concepts.
+
+---
+
+**Example workflow.**
+
+The following example illustrates the end-to-end process, from a raw hand-drawn circuit sketch to the extracted netlist.
 
 <p align="center">
   <img src="Assets/Demo_circuit.jpg" alt="DEMO" width="300" height="300">
 </p>  
 
-**The workflow consists of:**
-1. Detection of components using an object detection model I have trained using my own synthetic data then finetuned using real data.
+**Workflow Breakdown:**
+1. COMPONENT DETECTION
+- I trained a custom object detection model using
 
 <p align="center">
   <img src="Assets/Demo_Ob_det.png" alt="DEMO_ob" width="300" height="300">
