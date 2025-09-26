@@ -17,7 +17,8 @@ The following example illustrates the end-to-end process, from a raw hand-drawn 
 ### Workflow Breakdown:
 
 **1. Component Detection**
-  - I trained a custom object detection model using
+  - I trained a custom object detection model using both synthetic data and real annotated hand drawn circuits. This was due to the time consuming nature of personally annotating enough data for the model to make decent predicitions. The real images were used after in order to fine tune the model this proved extremely succesful on the YOLOv8 model.
+  - This model identifies the Resistors, Capacitors, ...within the image
 
 <p align="center">
   <img src="Assets/Demo_Ob_det.png" alt="DEMO_ob" width="300" height="300">
