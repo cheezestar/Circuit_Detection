@@ -10,5 +10,9 @@ Currently over several python scrpits I can decode an image of a hand drawn imag
 
 **The workflow consists of:**
 1. Detection of components using an object detection model I have trained using my own synthetic data then finetuned using real data.
-2. Cleaning of the image to 'remove' the circuits and using CV2 library using the coordinates generated from the model
 
+<p align="center">
+  <img src="Assets/Demo_Ob_det" alt="DEMO_ob" width="300" height="300">
+</p>  
+
+2. Cleaning of the image to 'remove' the circuits and using CV2 library using the coordinates generated from the model
