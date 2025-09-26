@@ -24,14 +24,20 @@ The following example illustrates the end-to-end process, from a raw hand-drawn 
   <img src="Assets/Demo_Ob_det.png" alt="DEMO_ob" width="300" height="300">
 </p>  
 
-2. Cleaning of the image to 'remove' the circuits and using CV2 library using the coordinates generated from the model
+**2. Cleaning the Image**
+  - In order to simplify the netting script I chose to further decompose the image and decided to 'remove' the components and using the CV2 library grayscale the image
+  - The goal is to isolate the nodes
    
 <p align="center">
   <img src="Assets/cleaned_circuit.png" alt="DEMO_clean" width="300" height="300">
 </p>  
 
-3. Now the image is cleaned, there are still the values on but this doesnt matter, as this cleaned image is passed into an instance segmentor to gather a bitmap of bundles of wires which represent nodes at this point where we have deleted the components we can the find where the components attach to these nodes and build the Netlist
+**3. Node Isolation**
+  - Despite that there are still the values on the image however this doesnt matter, as this cleaned image is passed into an instance segmentor to gather a bitmap of bundles of wires which represent nodes at this point where we have deleted the components we can the find where the components attach to these nodes and build the Netlist.
+  - Could certainly be another preprocessing step in order to remove this 'noise' in form of the values of components.
 
 <p align="center">
   <img src="Assets/Demo_wires.png" alt="DEMO_wires" width="300" height="300">
 </p>  
+
+**4. Build Netlist**
