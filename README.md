@@ -4,9 +4,11 @@ Currently over several python scrpits I can decode an image of a hand drawn imag
 
 Ill use this example image to demonstrate the workflow.
 
-<img src="Assets/Demo_circuit.jpg" alt="DEMO" width="300" height="300">
+<p align="center">
+  <img src="Assets/Demo_circuit.jpg" alt="DEMO" width="300" height="300">
+</p>  
 
 **The workflow consists of:**
 1. Detection of components using an object detection model I have trained using my own synthetic data then finetuned using real data.
 2. Cleaning of the image to 'remove' the circuits and using CV2 library using the coords generated from the model
-3. Shown picture of the cleaned image with now just "wires"
+
