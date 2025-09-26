@@ -4,7 +4,7 @@ Currently over several python scrpits I can decode an image of a hand drawn imag
 
 Ill use this example image to demonstrate the workflow.
 
-![alt text](Assets/Demo_circuit.jpg)
+<img src="Assets/Demo_circuit.png" alt="DEMO" width="100" height="100">
 
 **The workflow consists of:**
 1. Detection of components using an object detection model I have trained using my own synthetic data then finetuned using real data.
