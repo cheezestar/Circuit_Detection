@@ -30,3 +30,7 @@ The following example illustrates the end-to-end process, from a raw hand-drawn 
 </p>  
 
 3. Now the image is cleaned, there are still the values on but this doesnt matter, as this cleaned image is passed into an instance segmentor to gather a bitmap of bundles of wires which represent nodes at this point where we have deleted the components we can the find where the components attach to these nodes and build the Netlist
+
+<p align="center">
+  <img src="Assets/Demo_wires.png" alt="DEMO_wires" width="300" height="300">
+</p>  
