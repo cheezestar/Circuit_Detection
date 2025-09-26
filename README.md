@@ -15,8 +15,9 @@ The following example illustrates the end-to-end process, from a raw hand-drawn 
 </p>  
 
 **Workflow Breakdown:**
-1. COMPONENT DETECTION
-- I trained a custom object detection model using
+
+**1. Component Detection**
+  - I trained a custom object detection model using
 
 <p align="center">
   <img src="Assets/Demo_Ob_det.png" alt="DEMO_ob" width="300" height="300">
