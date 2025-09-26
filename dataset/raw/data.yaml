@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['ac_current', 'capacitor', 'current_source', 'dependant_current', 'dependant_voltage', 'ground', 'inductor', 'resistor', 'transistor', 'voltage_source']
+
+roboflow:
+  workspace: deeplearning-l1bq5
+  project: circuit-diagram-eo4kn
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deeplearning-l1bq5/circuit-diagram-eo4kn/dataset/8
