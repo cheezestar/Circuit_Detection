@@ -6,7 +6,7 @@ This work was carried out entirely as a solo project, covering dataset creation,
 
 ---
 
-**Example workflow.**
+##Example workflow.
 
 The following example illustrates the end-to-end process, from a raw hand-drawn circuit sketch to the extracted netlist.
 
